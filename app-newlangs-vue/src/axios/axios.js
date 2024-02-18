@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosIns = axios.create({
-baseURL: '后端接口地址',
+baseURL: 'http://yum.yhsheqv.pro',
 	timeout: 20000
 })
 
